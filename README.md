@@ -1,7 +1,7 @@
 About incremental
 =================
 
-Home: https://github.com/hawkowl/incremental
+Home: https://github.com/twisted/incremental
 
 Package license: MIT
 
@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/incremental-fee
 
 Summary: Incremental is a small library that versions your Python projects.
 
-Development: https://github.com/hawkowl/incremental
+Development: https://github.com/twisted/incremental
 
 Current build status
 ====================
