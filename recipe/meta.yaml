@@ -20,18 +20,23 @@ requirements:
     - pip
   run:
     - python >=3.6
+    - setuptools
 
 test:
   imports:
     - incremental
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
-  home: https://github.com/hawkowl/incremental
+  home: https://github.com/twisted/incremental
   license: MIT
   license_family: MIT
   license_file: LICENSE
   summary: Incremental is a small library that versions your Python projects.
-  dev_url: https://github.com/hawkowl/incremental
+  dev_url: https://github.com/twisted/incremental
 
 extra:
   recipe-maintainers:
